@@ -1,0 +1,211 @@
+body{
+    background:  #E5E5E5;
+    font-family: 'Open sans';
+}
+.mobile-pay img{
+    height: 5rem;
+    width: 5rem;
+    border: 1.5px solid white;
+}
+.mobile-pay{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    align-items: center;
+}
+.paypal:hover{
+    border: 3px solid aqua;
+    border-radius: 18px;
+}
+.nagad:hover{
+    border: 3px solid aqua;
+    border-radius: 18px;
+}
+.bkash:hover{
+    border: 3px solid aqua;
+    border-radius: 18px;
+}
+.card-pay-img img{
+    height: 5rem;
+    width: 8rem;
+}
+.card:hover{
+     border: 3px solid aqua;
+    border-radius: 18px;
+}
+.header__logo-box {
+  top: 4rem;
+  left: 4rem;
+}
+
+.header__logo {
+    margin: 1% ;
+  height: 5rem;
+ }
+.payment-contents{
+ display: flex;
+ flex-direction: row;
+ gap: 3rem;
+ justify-content: center;
+ align-items: center;
+}
+.address{
+    background: white;
+    padding: 2rem;
+}
+.address form input{
+    box-sizing: border-box;
+    background: #FFFFFF;
+/* Dark/Dark 1 */
+
+    border: 1px solid #B2BCCA;
+    border-radius: 4px;
+    font-size: 2rem;
+    width: 30rem;
+}
+/*
+.full-name{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}*/
+.add-con{
+    display: flex;
+    flex-direction: column;
+}
+.payment-method{
+    background: white;
+    padding: 2rem;
+}
+.transiction-id{
+    box-sizing: border-box;
+    background: #FFFFFF;
+/* Dark/Dark 1 */
+
+    border: 1px solid #B2BCCA;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    width: 30rem;
+    padding: 1rem;
+}
+.card-pay-header{
+    display: flex;
+    flex-direction: row;
+}
+.card-payment form input{
+    box-sizing: border-box;
+    background: #FFFFFF;
+/* Dark/Dark 1 */
+
+    border: 1px solid #B2BCCA;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    width: 20rem;
+    padding: 1rem;
+}
+.card-payment{
+    background:  #D4E5DD;
+    padding: 0.8rem;
+}
+.protection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.card-payment p {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.card-checkbox{
+    width: 1.8rem;
+}
+.protection p{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+/** Right part of the payment contents**/
+.pack-review{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    background: white;
+    padding: 2rem;
+}
+.pack-discount{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    background: white;
+    padding: 2rem;
+}
+.bill-head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+.bill-summary{
+    background: white;
+    padding: 2rem;
+}
+.sub-total{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6rem;
+}
+.Discount{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6rem;
+}
+.Tax{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8.5rem;
+}
+.line{
+    border: 2px solid rgb(49, 5, 5);
+}
+.total{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6rem;
+}
+.terms-agree{
+    display: flex;
+    flex-direction: row;
+}
+.agreement-checkbox{
+    width: 2rem;
+}
+.payment-btn{
+    font-family: 'Open sans';
+    text-decoration: solid;
+    color: #000000;
+    background: #8FDF4D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 0 5rem 0 5rem;
+    font-size: 2.5rem;
+    letter-spacing: 0.05em;
+}
+.payment-btn:hover{
+    color: rgb(16, 196, 196);
+}
+svg:hover{
+    cursor: pointer;
+    stroke: aqua;
+}
